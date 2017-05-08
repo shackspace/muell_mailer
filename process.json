@@ -1,0 +1,15 @@
+{
+  "apps" : [{
+    "name"        : "muell_mail",
+    "script"      : "app.js",
+    "watch"       : true,
+    "ignore_watch": [".git"],
+    "env": {
+      "NODE_ENV": "development",
+    },
+    "env_production" : {
+       "NODE_ENV": "production"
+    },
+    "max_restarts": "10"
+  }]
+}
